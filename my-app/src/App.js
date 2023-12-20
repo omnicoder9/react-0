@@ -4,6 +4,7 @@ import Comp1 from './C1';
 import { TodoList } from './C1';
 import { Avatar } from './C1';
 import { getImageUrl } from './utils.js';
+import Form from './CityQuiz.js';
 
 
 function Profile({ name, src, width, height, numAwards, awards, profession, discovered }){
@@ -41,6 +42,11 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <div style={{ textAlign: 'left' }}>
+          <Form></Form>
+        </div>
+
+        
         <Comp1/>
         <TodoList/>
         <Avatar/>
